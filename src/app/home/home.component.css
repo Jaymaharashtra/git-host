@@ -1,0 +1,20 @@
+h1{
+    font-weight: bold;
+    color: rgb(216, 29, 60);
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+.note{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+h3{
+    font-weight: bold;
+}
+ul{
+    list-style: circle;
+}

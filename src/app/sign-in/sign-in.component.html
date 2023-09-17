@@ -1,0 +1,20 @@
+<div class="container">
+
+    <div class="input-fields">
+
+        <form >
+
+            <p>Sign-In</p>
+
+       
+            <input class="txt" type="email" placeholder="abc@gmail.com" required [(ngModel)]="signInObj.email" name="email">
+            <input class="txt" type="password" placeholder="Enter Password" required [(ngModel)]="signInObj.password" name="password">
+
+            <button (click)="userSignIn()">Sign In</button>
+
+        </form>
+
+    </div>
+
+</div>
+

@@ -1,0 +1,25 @@
+.user-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.user-list table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.user-list th{
+    text-align: center;
+}
+
+.user-list h2{
+    margin-bottom: 3%;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}

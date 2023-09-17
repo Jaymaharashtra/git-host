@@ -1,0 +1,21 @@
+<div class="container">
+
+    <div class="input-fields">
+
+        <form>
+
+            <p>Sign-Up</p>
+
+            <input class="txt" type="text" placeholder="First Name"  [(ngModel)]="signUpObj.first_name" name="fname">
+            <input class="txt" type="text" placeholder="Last Name"  [(ngModel)]="signUpObj.last_name" name="lname">
+            <input class="txt" type="email" placeholder="abc@gmail.com" [(ngModel)]="signUpObj.email" name="email">
+            <input class="txt" type="date" placeholder="dd/mm/yyyy"  [(ngModel)]="signUpObj.date" name="dob">
+            <input class="txt" type="password" placeholder="Enter Password" [(ngModel)]="signUpObj.password" name="password" >
+
+            <button (click)="userSignUp()" >Sign Up</button>
+
+        </form>
+
+    </div>
+
+</div>

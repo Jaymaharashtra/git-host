@@ -1,0 +1,45 @@
+.navbar .logo{
+    font-size: 26px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+header{
+    margin: 0px;
+    /* background-image: url(assets/Image/bg.png) ; */
+    
+    box-shadow: 0px 5px 8px gray;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+
+.menu-field ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu-field ul li{
+    list-style: none;
+}
+.menu-field ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.menu-field ul li a:hover{
+    font-size: 19px;
+    transition: 1000ms ease-in-out;
+    /* background-color: blueviolet; */
+
+}
+
+
